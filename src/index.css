@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body,
+#root,
+.app,
+.content{
+  height: 100vh;
+  width: 100%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow: hidden;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*track*/
+
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
